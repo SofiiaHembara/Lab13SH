@@ -1,4 +1,8 @@
 package org.example.task1;
 
-public class User {
+public interface User {
+    public String getMail();
+    public String getCountry();
+    public String getActiveTime();
+
 }

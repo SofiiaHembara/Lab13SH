@@ -1,4 +1,5 @@
 package org.example.task1;
 
-public class AuthMethod {
+public enum AuthMethod {
+    FACEBOOK, TWITTER
 }
